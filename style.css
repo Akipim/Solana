@@ -1,0 +1,57 @@
+a{
+    color: lightgray !important;
+    font-weight: 600 !important;
+}
+
+
+span{
+    cursor: pointer;
+}
+
+
+body{
+    background-color: rgb(18, 18, 18) ;
+    overflow-x: hidden;
+}
+
+.img1,.img2{
+    position: absolute;
+    z-index: -1;
+}
+
+.img1{
+    right: -60%;
+    top: -0%;
+}
+
+
+.img2{
+    width: 70% !important;
+    left: -40%;
+    top: -10%;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.btns button:nth-child(1){
+    background: linear-gradient(to right, rgb(189, 42, 189),purple);
+}
+
+.btns{
+    
+
+}
+
+
+.break-point{
+    background: linear-gradient(to right, red, orange);
+
+}
+
+
+::selection{
+    background-color: #00ff80;
+
+}
